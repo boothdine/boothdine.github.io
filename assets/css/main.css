@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		/* color: #ffffff; */
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -3245,11 +3245,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #1D1919;
+			background-color: white;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: white;
+			color: #88A2AA !important;
 		}
 
 		.wrapper.style2-alt {
@@ -3514,7 +3515,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: #88A2AA;
 	}
 
 	#header + #wrapper + #footer > .inner {
