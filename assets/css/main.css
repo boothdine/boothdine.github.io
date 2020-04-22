@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.95);
 		font-family: 'Paytone One', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3766,10 +3766,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #88A2AA, #9988AA);
-				background-image: -webkit-linear-gradient(to right, #88A2AA, #9988AA);
-				background-image: -ms-linear-gradient(to right, #88A2AA, #9988AA);
-				background-image: linear-gradient(to right, #88A2AA, #9988AA);
+				background-image: -moz-linear-gradient(to right, #88A2AA, #ac2020);
+				background-image: -webkit-linear-gradient(to right, #88A2AA, #ac2020);
+				background-image: -ms-linear-gradient(to right, #88A2AA, #ac2020);
+				background-image: linear-gradient(to right, #88A2AA, #ac2020);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3875,10 +3875,10 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+    background-image: url(images/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	}
 
 		#intro p {
