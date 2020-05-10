@@ -219,6 +219,18 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
+	#covidtitle {
+		font-size: 3.2em !important;
+	}
+
+	#covidp {
+		font-size: 1.3em !important;
+	}
+
+	#covid-facts {
+		box-sizing: content-box;
+	}
+
 	h3 {
 		font-size: 1.1em;
 	}
@@ -262,6 +274,10 @@ input, select, textarea {
 		}
 
 	}
+
+#scan {
+	min-height: 28em;
+}
 
 	sub {
 		font-size: 0.8em;
@@ -2029,7 +2045,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.05);
+		background-color: rgba(149, 16, 16, 0.1);	
 		margin: 0 0 2em 0;
 	}
 
@@ -2037,6 +2053,7 @@ input, select, textarea {
 			padding: 3.5em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
@@ -2065,6 +2082,11 @@ input, select, textarea {
 				left: 3em;
 				top: 3em;
 				opacity: 1;
+			}
+
+			.features section .icon2 {
+				left: 0.5em;
+				top: 1em;
 			}
 
 			.features section:nth-child(1) .icon {
@@ -3049,7 +3071,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 23em;
 		}
 
 			.spotlights > section > .image img {
